@@ -1,0 +1,31 @@
+{
+  "name": "hello-you",
+  "version": "1.0.0",
+  "description": "## Instructions In the initial commit to this project you have been provided with only an ESLint config for a React project. Your task is to create a simple React introduction page that has your name and introduction.",
+  "main": ".eslintrc.js",
+  "scripts": {
+    "dev": "./node_modules/.bin/webpack --progress --config webpack.dev.js"
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/stackeducation/hello-you.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/stackeducation/hello-you/issues"
+  },
+  "homepage": "https://github.com/stackeducation/hello-you#readme",
+  "dependencies": {
+    "eslint-plugin-import": "^2.20.2",
+    "react": "^16.13.1"
+  },
+  "devDependencies": {
+    "eslint": "^7.0.0",
+    "eslint-config-airbnb": "^18.1.0",
+    "eslint-plugin-jsx-a11y": "^6.2.3",
+    "eslint-plugin-react": "^7.20.0",
+    "webpack-cli": "^3.3.11"
+  }
+}
